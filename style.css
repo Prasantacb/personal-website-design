@@ -1,0 +1,231 @@
+*, body{
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Roboto';
+}
+    /* Top-manu-bur-start */
+    .maid{
+    width: 80%;
+    margin: auto;
+    clear: both;
+}
+
+.top-manu-bur li{
+    float: right;
+    padding: 10px 15px;
+    margin-top: 10px;
+    list-style: none;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.top-manu-bur li:hover{
+    background-color: blueviolet;
+    color: white;
+    transition: .5s;
+}
+    /* Top-manu-bur-end */
+
+
+    /* body-part-start  */
+
+.body-box{
+    width: 50%;
+    float: left;
+    position: relative;
+}
+.body-box img{
+    width: 100%;
+}
+#top-space{
+    margin-top: 70px;
+}
+h1{
+    font-size: 80px;
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    line-height: 80px;
+    color: #363958;
+}
+h1 samp{
+    font-size: 80px;
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    line-height: 80px;
+    color: #FF8367;
+    display: block;
+}
+
+p{
+margin: 20px 0px 40px 0px;
+text-align: left;
+font-family: 'Roboto';
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+width: 320px;
+}
+
+.body-box a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background: linear-gradient(0deg, #FF8063, #F46060);
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+
+/* body-part-02 */
+
+#space-left{
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    bottom: 0px;
+    left: 120px;
+}
+#bg-christmas-images{
+    background-image: url("images/Christmas_trees-.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    overflow: hidden;
+}
+#space-left h2{
+    color: #363958;
+    font-size: 50px;
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    line-height: 50px;
+}
+#space-left p{
+    width: 450px;
+}
+/* body-part-end  */
+
+/* Laster-working-project-start  */
+.last-work-pro{
+    background-color: #E5E5E5;
+    display: block;
+    overflow: hidden;
+    padding: 20px 0px 100px;
+}
+.middle-cont{
+    padding: 59px 0px 50px 0px;
+    text-align: center;
+}
+.middle-cont h3{
+    color: #363958;
+    font-size: 50px;
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    line-height: 50px;
+    padding-bottom: 15px;
+}
+.middle-cont span{
+    color: #F46060;
+    font-size: 50px;
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    line-height: 50px;
+}
+.work-list{
+    width: 30%;
+    height: 330px;
+    float: left;
+    background-color: white;
+    margin: 0px 7px;
+    padding: 15px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 0px 10px rgb(164, 159, 159);
+}
+.work-list img{
+    width: 100%;
+}
+.work-list h2{
+    color: #363958;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 10px 0px 0px;
+}
+.work-list p{
+    color: #6C6C6C;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 15px 0px;
+}
+/* Laster-working-project-end  */
+
+    /* footer-part-start  */
+.footer-part{
+    margin: 100px auto;
+    width: 50%;
+}
+.text h5{
+    color: white;
+    font-size: 65px;
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    line-height: 66px;
+    margin-right: auto;
+}
+.text a{
+    background: linear-gradient(0deg, #FF8063, #F46060);
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+.text{
+    display: flex;
+}
+.text-left{
+    margin: 55px 0px 0px 40px;
+}
+.text-right{
+    margin-left: auto;
+    padding: 75px 35px 0px 0px;
+}
+.chat-box{
+    background-image: url("icons/Group_01.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 170px;
+    width: auto;
+}
+.social-side{
+    padding: 20px 0px;
+    text-align: center;
+}
+.social-side h3{
+    color: #696871;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    line-height: 25px;
+    padding: 15px 0;
+}
+.social-side a{
+    text-decoration: none;
+    color: #363958;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+}
+.social-icons img{
+    width: 40px;
+    padding: 0px 10px;
+    padding-top: 10px;
+}
+    /* footer-part-end  */
